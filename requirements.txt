@@ -1,0 +1,11 @@
+langchain
+langgraph
+langchain-google-genai
+langchain-community
+pandas
+numpy
+playwright
+faiss-cpu
+python-dotenv
+tiktoken
+sentence-transformers

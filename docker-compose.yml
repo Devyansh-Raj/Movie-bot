@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  movie-bot:
+    build: .
+    image: movie-maven-cli:latest
+    container_name: movie-maven-cli
+    stdin_open: true # docker run -i
+    tty: true # docker run -t
+    volumes:
+      - .:/app
+    env_file:
+      - .env
